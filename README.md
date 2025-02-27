@@ -1,8 +1,17 @@
-# 🟩 Mine Place 🟫
+# 🎨 [Sublime SMA] - Loja de Presentes Personalizados
 
-> Um projeto inspirado no universo **Minecraft**, desenvolvido com **React.js** e **Node.js**, para proporcionar uma experiência interativa aos jogadores e fãs do jogo.
+Bem-vindo ao **[Sublime SMA]**, um site estático desenvolvido com **React** para apresentação e vendas de **canecas, camisetas e presentes personalizados**.  
 
-## 🚀 Tecnologias Utilizadas  
-| **React.js** | **Node.js** |
-|-------------|------------|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="React logo"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="50" alt="Node.js logo"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/styledcomponents/styledcomponents-original.svg" height="50" alt="Styled Components logo"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="50" alt="Express.js logo"> |
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ React.js  
+- 🎨 CSS/Styled-component   
+- 📦 Vite  
+
+## 🎁 Funcionalidades  
+
+✅ Exibição de produtos personalizados  
+✅ Layout responsivo e moderno  
+✅ Página de detalhes do produto  
+✅ Formulário de contato para pedidos personalizados  
+
