@@ -1,6 +1,7 @@
+import GlobalStyle from "./styles/Global";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
-import GlobalStyle from "./styles/Global";
+import { Selection } from "./components/Selection/Selection";
 import { Cards } from "./components/Cards";
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Cards />
+      <Selection />
     </>
   );
 }

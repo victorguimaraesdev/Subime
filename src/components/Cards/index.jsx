@@ -40,16 +40,6 @@ export const Cards = () => {
           ainda mais memorável.
         </p>
       </Card>
-      {/* <Card>
-        <img src="../../../assets/img/azuleijoCard2.png" alt="Server img" />
-        <h1> Azulejos personalizados</h1>
-        <p>
-          Transforme seu ambiente com azulejos exclusivos feitos sob medida para
-          vocé! Seja para criar um ambiente exclusivo, divulgar sua marca ou
-          simplesmente deixar sua rotina mais estilosa, nossos azulejos
-          personalizados são a escolha perfeita!
-        </p>
-      </Card> */}
     </Container>
   );
 };
