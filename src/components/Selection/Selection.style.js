@@ -44,18 +44,25 @@ export const Card = styled.div`
   overflow: hidden;
   border-radius: 20px;
   img {
-    height: 180px;
+    height: 150px;
     width: 100%;
     border-bottom: 2px solid var(--primary2);
   }
   h2 {
     color: var(--supp);
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 17px;
   }
   h3 {
+    color: var(--supp2);
+    font-size: 12px;
+  }
+  h4 {
     color: var(--primary2);
-    font-size: 15px;
+    font-size: 30px;
+  }
+  :hover {
+    cursor: pointer;
   }
 `;
 export const Button = styled.div`
