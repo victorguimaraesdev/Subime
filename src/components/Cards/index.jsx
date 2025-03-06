@@ -4,7 +4,7 @@ export const Cards = () => {
   return (
     <Container>
       <Card>
-        <img src="../../../assets/img/Card/canecaCard2.jpg" alt="Server img" />
+        <img src="assets\img\Card\CanecaCard2.jpg" alt="Server img" />
         <h1> Canecas personalizadas</h1>
         <p>
           Nada como começar o dia com um café do seu jeito! Nossas canecas
@@ -15,10 +15,7 @@ export const Cards = () => {
         </p>
       </Card>
       <Card>
-        <img
-          src="../../../assets/img/Card/camisetasCard.jpg"
-          alt="Server img"
-        />
+        <img src="assets\img\Card\camisetasCard.jpg" alt="Server img" />
         <h1> Camisetas personalizadas</h1>
         <p>
           Transforme seu visual com camisetas exclusivas feitas sob medida para
@@ -28,10 +25,7 @@ export const Cards = () => {
         </p>
       </Card>
       <Card>
-        <img
-          src="../../../assets/img/Card/presenteCard3.jpg"
-          alt="Server img"
-        />
+        <img src="assets\img\Card\presenteCard3.JPG" alt="Server img" />
         <h1> Presentes personalizados</h1>
         <p>
           Surpreenda quem você ama com um presente único e cheio de significado!

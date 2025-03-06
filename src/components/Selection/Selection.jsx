@@ -32,10 +32,7 @@ export const Selection = () => {
     <Container>
       <ContainerMaster>
         <Icon>
-          <img
-            src="../../../assets/img/Selection/iconeCaneca.png"
-            alt="Icone"
-          />
+          <img src="assets\img\Selection\iconeCaneca.png" alt="Icone" />
         </Icon>
         <Button onClick={() => scrollLeft(carrosselRef1)}>
           <img src="assets\img\Selection\Cards\voltar.png" alt="" />
@@ -79,10 +76,7 @@ export const Selection = () => {
 
       <ContainerMaster>
         <Icon>
-          <img
-            src="../../../assets/img/Selection/iconeCamiseta.png"
-            alt="Icone"
-          />
+          <img src="assets\img\Selection\iconeCamiseta.png" alt="Icone" />
         </Icon>
         <Button onClick={() => scrollLeft(carrosselRef2)}>
           <img src="assets\img\Selection\Cards\voltar.png" alt="" />
@@ -112,10 +106,7 @@ export const Selection = () => {
 
       <ContainerMaster>
         <Icon>
-          <img
-            src="../../../assets/img/Selection/iconePresente.png"
-            alt="Icone"
-          />
+          <img src="assets\img\Selection\iconePresente.png" alt="Icone" />
         </Icon>
         <Button onClick={() => scrollLeft(carrosselRef3)}>
           <img src="assets\img\Selection\Cards\voltar.png" alt="" />
