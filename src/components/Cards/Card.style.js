@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   height: 470px;
-  gap: 120px;
+  gap: 160px;
 `;
 export const Card = styled.div`
   display: flex;

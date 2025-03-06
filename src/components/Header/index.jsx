@@ -1,7 +1,7 @@
-import { Container } from "./Heade.styled";
-import { LogoImg } from "./Heade.styled";
-import { Menu } from "./Heade.styled";
-import { Contato } from "./Heade.styled";
+import { Container, Contato2 } from "./Heade.style";
+import { LogoImg } from "./Heade.style";
+import { Menu } from "./Heade.style";
+import { Contato } from "./Heade.style";
 
 function Header() {
   return (
@@ -33,10 +33,14 @@ function Header() {
           </li>
         </ul>
       </Menu>
-      <Contato>
-        <img src="assets/img/headerIcon/iconeHeadset.png" alt="" />
-        <h4>(15) 99852-2101</h4>
-      </Contato>
+      <a href="https://api.whatsapp.com/send/?phone=5515998522101&text&type=phone_number&app_absent=0">
+        <Contato>
+          <Contato2>
+            <img src="assets\img\headerIcon\iconeTelefone.png" alt="" />
+          </Contato2>
+          <h3>C O N T A T O</h3>
+        </Contato>
+      </a>
     </Container>
   );
 }

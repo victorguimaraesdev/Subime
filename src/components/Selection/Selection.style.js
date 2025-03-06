@@ -2,35 +2,64 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  height: 500px;
-  border: 2px solid red;
+  height: 800px;
   margin-top: 30px;
 `;
 export const ContainerMaster = styled.div`
   display: flex;
   align-items: center;
-  height: 200px;
+  height: 400px;
   width: 1200px;
-  border: solid 2px white;
+  margin-top: 15px;
+  margin-bottom: 15px;
 `;
 
 export const Icon = styled.div`
-  height: 100px;
-  width: 100px;
-  border: 2px solid red;
+  height: 90px;
+  width: 120px;
+  margin-right: 30px;
   img {
     height: 100%;
     width: 100%;
+    rotate: -10deg;
   }
 `;
 export const ContainerCarrosel = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 20px;
   height: 100%;
-  width: 1000px;
-  border: 2px solid blue;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+`;
+export const Card = styled.div`
+  display: flex;
+  background-color: var(--transparent);
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  img {
+    height: 180px;
+    width: 100%;
+    border-bottom: 2px solid var(--primary2);
+  }
+  h2 {
+    color: var(--supp);
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  h3 {
+    color: var(--primary2);
+    font-size: 15px;
+  }
+`;
+export const Button = styled.div`
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
 `;

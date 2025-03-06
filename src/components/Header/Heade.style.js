@@ -13,6 +13,7 @@ export const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.9);
   color: var(--secundary);
   border-bottom: 1px solid var(--gold);
+  z-index: 5;
 `;
 export const LogoImg = styled.div`
   display: flex;
@@ -25,15 +26,24 @@ export const LogoImg = styled.div`
 `;
 export const Contato = styled.div`
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--supp);
+  gap: 0px;
   img {
     width: 32px;
     height: 32px;
   }
-  h4 {
-    margin-top: 5px;
+  h3 {
+    margin-top: 2px;
     color: var(--supp);
+    font-size: 10px;
+  }
+  &:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.2);
   }
 `;
 export const Menu = styled.nav`
@@ -59,4 +69,25 @@ export const Menu = styled.nav`
       }
     }
   }
+`;
+export const Contato2 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--supp);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.9);
+  img {
+    /* margin-top: 5px; */
+    width: 20px;
+    height: 20px;
+  }
+  /* &:hover {
+    border: 2px solid var(--supp);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.2);
+  } */
 `;

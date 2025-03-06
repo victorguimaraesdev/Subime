@@ -14,10 +14,11 @@ const GlobalStyle = createGlobalStyle`
     --primary2: #d4b521;
     --supp:rgb(255, 255, 255);
     --supp2: #d3d3d3;
+    --transparent: rgba(0, 0, 0, 0.9);
   }
   body {
     background: radial-gradient(circle, #0A1828 0%, rgb(0, 0, 0) 100%);
-    color: var(--secundary);
+    color: var(--supp);
     font-size: 1.2rem;
     font-weight: 400;
   }
