@@ -39,31 +39,31 @@ export const Selection = () => {
         </Button>
         <ContainerCarrosel ref={carrosselRef1}>
           <Card>
-            <img src="assets\img\Selection\Cards\caneca2.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mk1.jpg" alt="" />
             <h2>Caneca Olá Madrinha!</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Cards\caneca3.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mk2.jpg" alt="" />
             <h2>Caneca Olá Padrinho!</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Cards\caneca6.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mk3.jpg" alt="" />
             <h2>Caneca Querida Filha</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Cards\caneca5.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mk4.jpg" alt="" />
             <h2>Caneca Stitch Amigos</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Cards\caneca4.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mk5.jpg" alt="" />
             <h2>Caneca Eu Te Amo </h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
@@ -83,21 +83,41 @@ export const Selection = () => {
         </Button>
         <ContainerCarrosel ref={carrosselRef2}>
           <Card>
-            <img src="assets\img\Selection\Cards\camisa1.jpg" alt="" />
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
             <h2>Camiseta Toy Story </h2>
             <h3>100% algodão no DTF</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Cards\camisa2.jpg" alt="" />
-            <h2>A Fé Move Montanhas</h2>
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
+            <h2>Camiseta Toy Story </h2>
             <h3>100% algodão no DTF</h3>
             <h4> R$ 29,99 </h4>
           </Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
+            <h2>Camiseta Toy Story </h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
+            <h2>Camiseta Toy Story </h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
+            <h2>Camiseta Toy Story </h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
+            <h2>Camiseta Toy Story </h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
         </ContainerCarrosel>
         <Button onClick={() => scrollRight(carrosselRef2)}>
           <img src="assets\img\Selection\Cards\avancar.png" alt="" />
@@ -113,16 +133,41 @@ export const Selection = () => {
         </Button>
         <ContainerCarrosel ref={carrosselRef3}>
           <Card>
-            <img src="assets\img\Selection\Cards\presente1.jpg" alt="" />
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
             <h2>Almofadas Minecraft!</h2>
             <h3>100% algodão no DTF</h3>
             <h4> R$ 29,99 </h4>
           </Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+          <Card>
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
+            <h2>Almofadas Minecraft!</h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
+            <h2>Almofadas Minecraft!</h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
+            <h2>Almofadas Minecraft!</h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
+            <h2>Almofadas Minecraft!</h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Card\presenteCard3.JPG" alt="" />
+            <h2>Almofadas Minecraft!</h2>
+            <h3>100% algodão no DTF</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
         </ContainerCarrosel>
         <Button onClick={() => scrollRight(carrosselRef3)}>
           <img src="assets\img\Selection\Cards\avancar.png" alt="" />
