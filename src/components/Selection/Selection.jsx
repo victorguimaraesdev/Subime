@@ -68,6 +68,18 @@ export const Selection = () => {
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mk6.jpg" alt="" />
+            <h2>Caneca Eu Te Amo </h2>
+            <h3>Caneca de porcelana 325ml</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mk7.jpg" alt="" />
+            <h2>Caneca Eu Te Amo </h2>
+            <h3>Caneca de porcelana 325ml</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
         </ContainerCarrosel>
         <Button onClick={() => scrollRight(carrosselRef1)}>
           <img src="assets\img\Selection\Cards\avancar.png" alt="" />
