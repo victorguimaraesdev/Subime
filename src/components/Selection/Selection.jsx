@@ -40,43 +40,55 @@ export const Selection = () => {
         <ContainerCarrosel ref={carrosselRef1}>
           <Card>
             <img src="assets\img\Selection\Mockups\mk1.jpg" alt="" />
-            <h2>Caneca Olá Madrinha!</h2>
+            <h2>Enfermeira Querida</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
             <img src="assets\img\Selection\Mockups\mk2.jpg" alt="" />
-            <h2>Caneca Olá Padrinho!</h2>
+            <h2>Naquele Que Me Fortalece</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
             <img src="assets\img\Selection\Mockups\mk3.jpg" alt="" />
-            <h2>Caneca Querida Filha</h2>
+            <h2>Levanta e Agacha</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
             <img src="assets\img\Selection\Mockups\mk4.jpg" alt="" />
-            <h2>Caneca Stitch Amigos</h2>
+            <h2>Os Divertidamente</h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
             <img src="assets\img\Selection\Mockups\mk5.jpg" alt="" />
-            <h2>Caneca Eu Te Amo </h2>
-            <h3>Caneca de porcelana 325ml</h3>
-            <h4> R$ 29,99 </h4>
-          </Card>
-          <Card>
-            <img src="assets\img\Selection\Mockups\mk6.jpg" alt="" />
-            <h2>Caneca Eu Te Amo </h2>
+            <h2>Naruto Classico Mangá </h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
           <Card>
             <img src="assets\img\Selection\Mockups\mk7.jpg" alt="" />
-            <h2>Caneca Eu Te Amo </h2>
+            <h2>Deus Te Quer Sorrindo</h2>
+            <h3>Caneca de porcelana 325ml</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mk8.jpg" alt="" />
+            <h2>Mulheres Poderosas </h2>
+            <h3>Caneca de porcelana 325ml</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mk9.jpg" alt="" />
+            <h2>Seja Linda Como Você </h2>
+            <h3>Caneca de porcelana 325ml</h3>
+            <h4> R$ 29,99 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Mockups\mk6.jpg" alt="" />
+            <h2>Naruto Shippuden </h2>
             <h3>Caneca de porcelana 325ml</h3>
             <h4> R$ 29,99 </h4>
           </Card>
@@ -95,40 +107,52 @@ export const Selection = () => {
         </Button>
         <ContainerCarrosel ref={carrosselRef2}>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk1.jpg" alt="" />
+            <h2>Jesus Cristo </h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 40,00 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk2.jpg" alt="" />
+            <h2>Leão de Judá </h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 40,00 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk3.jpg" alt="" />
+            <h2>Rainha e Princesa </h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 40,00 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk5.jpg" alt="" />
+            <h2>Doritos Radical</h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 40,00 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk6.jpg" alt="" />
+            <h2>Leão De Judá Walk</h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 40,00 </h4>
           </Card>
           <Card>
-            <img src="assets\img\Selection\Mockups\mkc1.jpg" alt="" />
-            <h2>Camiseta Toy Story </h2>
-            <h3>100% algodão no DTF</h3>
-            <h4> R$ 29,99 </h4>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk4.jpg" alt="" />
+            <h2>Noiva e Noivo</h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 35,00 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk7.jpg" alt="" />
+            <h2>Jesus Salva</h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 35,00 </h4>
+          </Card>
+          <Card>
+            <img src="assets\img\Selection\Camisetas\Mockups\mk8.jpg" alt="" />
+            <h2>Sonic & Tails </h2>
+            <h3>100% poliéster [sublimação]</h3>
+            <h4> R$ 35,00 </h4>
           </Card>
         </ContainerCarrosel>
         <Button onClick={() => scrollRight(carrosselRef2)}>

@@ -15,7 +15,10 @@ export const Cards = () => {
         </p>
       </Card>
       <Card>
-        <img src="assets\img\Card\mkc1.jpg" alt="Server img" />
+        <img
+          src="assets\img\Selection\Camisetas\Mockups\mk2.jpg"
+          alt="Server img"
+        />
         <h1> Camisetas personalizadas</h1>
         <p>
           Transforme seu visual com camisetas exclusivas feitas sob medida para

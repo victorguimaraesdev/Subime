@@ -76,13 +76,13 @@ export const Contato2 = styled.div`
   align-items: center;
   width: 32px;
   height: 32px;
-  border: 2px solid var(--supp);
+  /* border: 2px solid var(--supp); */
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.9);
   img {
     /* margin-top: 5px; */
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
   }
   /* &:hover {
     border: 2px solid var(--supp);
