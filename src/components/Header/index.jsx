@@ -36,7 +36,7 @@ function Header() {
       <a href="https://api.whatsapp.com/send/?phone=5515998522101&text&type=phone_number&app_absent=0">
         <Contato>
           <Contato2>
-            <img src="assets\img\headerIcon\iconeTelefone.png" alt="" />
+            <img src="assets\img\RedesSociais\whatsappIcon.png" alt="" />
           </Contato2>
           <h3>C O N T A T O</h3>
         </Contato>
